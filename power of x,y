@@ -76,9 +76,5 @@ int main() {
 		cout<<sum<<endl;
 	}
 }
-str to base 10
-t=int(input())
-for i in range(t):
-    s=input()
-    print(int(s,2))
+
     
