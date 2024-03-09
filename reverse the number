@@ -1,0 +1,22 @@
+
+    #include <iostream>
+using namespace std;
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+		int n;
+		cin>>n;
+		int rem,sum=0;
+		while(n){
+			rem=n%10;
+			sum=sum*10+rem;
+			n/=10;
+		}
+		cout<<sum<<endl;
+	}
+}
+output
+1
+7864
+4687
