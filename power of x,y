@@ -202,20 +202,3 @@ int main(){
 	cout<<endl;
 }
 }
-no of defects\
-#include <iostream>
-using namespace std;
-int main() {
-	int t;
-	cin>>t;
-	while(t--){
-		string s,t;
-		cin>>s>>t;
-		int i,c=0;
-		for(i=0;i<s.length();i++){
-			if(s[i]!=t[i])
-			c++;
-		}
-		cout<<c<<endl;
-	}
-}
